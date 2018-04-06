@@ -1,0 +1,1 @@
+from BinaryTreeNode import *; l = BinaryTreeNode(2, 4, 5); r = BinaryTreeNode(3, 6, 7); t = BinaryTreeNode(1); t.setLeft(l); t.setRite(r)

@@ -31,6 +31,9 @@ class BinaryTreeNode(object):
     def setRite(self, val):
         self.rite = val
 
+    '''
+    DFS is a Depth-First Search Tree Traversal Algorithm
+    '''
     def DFS(self):
         stack = Stack()
         q = [self]
@@ -44,6 +47,9 @@ class BinaryTreeNode(object):
                     q.append(sub)
         return rlst
         
+    '''
+    BFS is a Breath-First Search Tree Traversal Algorithm
+    '''
     def BFS(self):
         stack = Stack()
         q = [self]
@@ -56,7 +62,18 @@ class BinaryTreeNode(object):
                 if sub != None:
                     q.append(sub)
         return rlst
-        
+
+    ''' 
+    MSS is the Microsoft Search Algorithm. Acts as a BFS, but for each depth 
+    level, the values are reversed. Basically traverses breath-wise, but zigzags
+    left to right. 
+
+        1       [1] -> 
+       / \
+      2   3     [1, 3, 2] <-
+     / \ / \
+    4  5 6  7   [1, 3, 2, 4, 5, 6, 7] -> 
+    ''' 
     def MSS(self):
         q = [self, 'enddepth']
         rlst = [] 
