@@ -1,0 +1,24 @@
+Topics from 4700:
+ - State Space Search (3.1-3.5, 4.1.1)
+ - Adversarial Search (5.1-5.3)
+   - Game Tree Search
+   - a-ß pruning
+ - Supervised Learning: (18.1-18.2, 18.6-18.7)
+   - Perceptrons
+   - Logistic Regression
+   - Multi-layer Networks
+   - Backpropagation
+   - Naïve Bayes
+ - Unsupervised Learning:
+   - k-means clustering
+ - Reinforcement Learning (17.1-17.3, 21.1-21.3)
+   - Markov Decision Process
+   - Policy Iteration
+   - Value Iteration
+   - Q-Learning
+ - Propositional Logic (7.4, 7.5.1-7.5.3)
+   - Syntax
+   - Semantics/entailment
+   - Inference
+   - CNF
+   - Resolution
